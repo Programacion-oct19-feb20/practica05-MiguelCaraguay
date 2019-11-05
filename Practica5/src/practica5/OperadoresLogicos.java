@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplos;
+package practica5;
 
 /**
  *
@@ -18,11 +18,10 @@ public class OperadoresLogicos {
         System.out.printf("Negacion: !%s = %s\n", valorA, !valorA);
         System.out.printf("Negacion: !%s = %s\n", valorB, !valorB);
         System.out.printf("And: %s & %s = %s\n", valorA, valorB, 
-                valorA & valorB);
+                valorA & valorB);// & es conjunción
         System.out.printf("And: %s | %s = %s\n", valorA, valorB, 
-                valorA | valorB);
-       
-        
+                valorA | valorB);// | es disyunción
+   
     }
 
 }
